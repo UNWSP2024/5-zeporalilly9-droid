@@ -24,6 +24,6 @@ if __name__ == '__main__':
     kilometers = float(input('Enter the distance in kilometers: '))
 
     # Call kilometer_conversion, don't forget to pass in the kilometer parameter!
-    miles = kilometer_conversion(kilometer)
+    miles = kilometer_conversion(kilometers)
     # Display the miles
     print(f"{kilometers} kilometers is equal to {miles:.2f} miles.")
